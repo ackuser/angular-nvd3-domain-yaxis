@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Angular-nvD3 Line with Focus Chart</title>
+    <title>Angular-nvD3 Line + Bar with Focus Chart</title>
     <script>document.write('<base href="' + document.location + '" />');</script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://rawgit.com/novus/nvd3/v1.1.15-beta/nv.d3.min.css"/>
@@ -16,7 +16,7 @@
 
   <body ng-controller="MainCtrl">
     
-    <nvd3 options="options" data="data"></nvd3>
+    <nvd3 options="options" data="data" api="tc.api"></nvd3>
     
     <br><a href="http://krispo.github.io/angular-nvd3/" target="_blank" style="float: right;">See more</a>
   </body>
