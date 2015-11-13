@@ -3,7 +3,7 @@ var app = angular.module('plunker', ['nvd3']);
 app.controller('MainCtrl', function($scope, $timeout) {
   $scope.options = {
     chart: {
-      type: 'lineWithFocusChart',
+      type: 'lineChart',
       height: 500,
       margin: {
         top: 30,
